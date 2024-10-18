@@ -57,6 +57,7 @@ final class PostsViewController: UIViewController {
     }
     
     private func handleButtonTap() {
+        UserDefaults.standard.removeObject(forKey: "isLoggedIn")
         if isLoginViewControllerInStack() {
             self.navigationController?.popViewController(animated: true)
         } else {

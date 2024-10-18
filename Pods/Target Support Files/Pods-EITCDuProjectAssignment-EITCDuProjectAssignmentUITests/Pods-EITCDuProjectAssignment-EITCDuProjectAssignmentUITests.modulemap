@@ -1,0 +1,6 @@
+framework module Pods_EITCDuProjectAssignment_EITCDuProjectAssignmentUITests {
+  umbrella header "Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
