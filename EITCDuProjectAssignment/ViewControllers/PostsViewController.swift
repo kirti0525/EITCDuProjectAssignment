@@ -57,7 +57,23 @@ final class PostsViewController: UIViewController {
     }
     
     private func handleButtonTap() {
-        self.navigationController?.popViewController(animated: true)
+        if isLoginViewControllerInStack() {
+            self.navigationController?.popViewController(animated: true)
+        } else {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let loginVC = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
+            self.navigationController?.setViewControllers([loginVC], animated: false)
+        }
+    }
+    
+    private func isLoginViewControllerInStack() -> Bool {
+        // Check if the navigation controller exists
+        guard let viewControllers = self.navigationController?.viewControllers else {
+            return false
+        }
+        
+        // Check if LoginViewController is in the stack
+        return viewControllers.contains(where: { $0 is LoginViewController })
     }
 }
 
@@ -91,13 +107,13 @@ extension PostsViewController: UITableViewDelegate {
         // Handle swipe to delete
         
         tableView.rx.itemDeleted
-                    .subscribe(onNext: { [weak self] indexPath in
-                        guard let self = self, self.segmentedControl.selectedSegmentIndex == 1 else { return }
-                        print("IndexPath \(indexPath.row)")
-                        let favorites = viewModel.favoritesRelay.value                                
-                                let post = favorites[indexPath.row]
-                                self.viewModel.deleteFavorite(postId: post.id) // Call delete method in ViewModel
-                    })
-                    .disposed(by: tableViewDisposeBag)
+            .subscribe(onNext: { [weak self] indexPath in
+                guard let self = self, self.segmentedControl.selectedSegmentIndex == 1 else { return }
+                print("IndexPath \(indexPath.row)")
+                let favorites = viewModel.favoritesRelay.value
+                let post = favorites[indexPath.row]
+                self.viewModel.deleteFavorite(postId: post.id) // Call delete method in ViewModel
+            })
+            .disposed(by: tableViewDisposeBag)
     }
 }

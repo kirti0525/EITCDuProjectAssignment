@@ -18,7 +18,6 @@ final class LoginViewController: UIViewController {
     
     // Initialising view model
     let viewModel = LoginViewModel()
-    
     let disposeBag = DisposeBag()
     
     // MARK: View Life Cycle Methods

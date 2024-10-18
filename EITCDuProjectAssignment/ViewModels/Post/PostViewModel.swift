@@ -25,7 +25,6 @@ class PostViewModel {
     }
     
     func fetchAndSavePosts() {
-        //if NetworkMonitor.shared.isConnected {
             self.serviceManager.fetchPostsList()
                 .subscribe(onNext: {[weak self] postsAPI in
                     let realm = try! Realm()
@@ -41,9 +40,6 @@ class PostViewModel {
                     }
                 })
                 .disposed(by: disposeBag)
-//        } else {
-//            fetchPostsFromRealm()
-//        }
     }
     
     private func fetchPostsFromRealm() {
