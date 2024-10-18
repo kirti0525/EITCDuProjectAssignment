@@ -1,6 +1,6 @@
 //
 //  PostsModel.swift
-//  EITCDuAssignment
+//  EITCDuProjectAssignment
 //
 //  Created by Kirti Kalra on 16/10/24.
 //

@@ -1,6 +1,6 @@
 //
 //  LoginViewController.swift
-//  EITCDuAssignment
+//  EITCDuProjectAssignment
 //
 //  Created by Kirti Kalra on 15/10/24.
 //

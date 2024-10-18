@@ -16,6 +16,19 @@
 		1BDD2FBB2CC24FFD0082583B /* EITCDuProjectAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD2FBA2CC24FFD0082583B /* EITCDuProjectAssignmentTests.swift */; };
 		1BDD2FC52CC24FFD0082583B /* EITCDuProjectAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD2FC42CC24FFD0082583B /* EITCDuProjectAssignmentUITests.swift */; };
 		1BDD2FC72CC24FFD0082583B /* EITCDuProjectAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD2FC62CC24FFD0082583B /* EITCDuProjectAssignmentUITestsLaunchTests.swift */; };
+		1BDD2FE62CC251B40082583B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD2FD32CC251B40082583B /* LoginViewController.swift */; };
+		1BDD2FE72CC251B40082583B /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD2FD42CC251B40082583B /* PostsViewController.swift */; };
+		1BDD2FE82CC251B40082583B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD2FD62CC251B40082583B /* LoginViewModel.swift */; };
+		1BDD2FE92CC251B40082583B /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD2FD82CC251B40082583B /* PostViewModel.swift */; };
+		1BDD2FEA2CC251B40082583B /* PostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD2FDB2CC251B40082583B /* PostsModel.swift */; };
+		1BDD2FEB2CC251B40082583B /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD2FDD2CC251B40082583B /* PostTableViewCell.swift */; };
+		1BDD2FEC2CC251B40082583B /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDD2FDE2CC251B40082583B /* PostTableViewCell.xib */; };
+		1BDD2FED2CC251B40082583B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD2FE12CC251B40082583B /* Network.swift */; };
+		1BDD2FEE2CC251B40082583B /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD2FE22CC251B40082583B /* ServiceManager.swift */; };
+		1BDD2FEF2CC251B40082583B /* PostDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD2FE42CC251B40082583B /* PostDB.swift */; };
+		67D381125242BD59EBAC1710 /* Pods_EITCDuProjectAssignment_EITCDuProjectAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7F5863B13FC838DAFD628F /* Pods_EITCDuProjectAssignment_EITCDuProjectAssignmentUITests.framework */; };
+		8E71AB09A1AE3B7FECD7DF24 /* Pods_EITCDuProjectAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E312CA83BD7CBFD97D9F9DBC /* Pods_EITCDuProjectAssignment.framework */; };
+		B071D199DE2F3FF43F46D56E /* Pods_EITCDuProjectAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF4D54F0DB704F8A65EA369 /* Pods_EITCDuProjectAssignmentTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,25 @@
 		1BDD2FC02CC24FFD0082583B /* EITCDuProjectAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EITCDuProjectAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDD2FC42CC24FFD0082583B /* EITCDuProjectAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EITCDuProjectAssignmentUITests.swift; sourceTree = "<group>"; };
 		1BDD2FC62CC24FFD0082583B /* EITCDuProjectAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EITCDuProjectAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1BDD2FD32CC251B40082583B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1BDD2FD42CC251B40082583B /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		1BDD2FD62CC251B40082583B /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1BDD2FD82CC251B40082583B /* PostViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		1BDD2FDB2CC251B40082583B /* PostsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsModel.swift; sourceTree = "<group>"; };
+		1BDD2FDD2CC251B40082583B /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		1BDD2FDE2CC251B40082583B /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		1BDD2FE12CC251B40082583B /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		1BDD2FE22CC251B40082583B /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		1BDD2FE42CC251B40082583B /* PostDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDB.swift; sourceTree = "<group>"; };
+		7A32C9FA31CE17B39FE7DDF7 /* Pods-EITCDuProjectAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EITCDuProjectAssignment.release.xcconfig"; path = "Target Support Files/Pods-EITCDuProjectAssignment/Pods-EITCDuProjectAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		A2BB9128C8F4F4886B052B23 /* Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests/Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC7F5863B13FC838DAFD628F /* Pods_EITCDuProjectAssignment_EITCDuProjectAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EITCDuProjectAssignment_EITCDuProjectAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F62054A8BE9912723E6D59 /* Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests/Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B733D6F0AE6F333A5E59BCFA /* Pods-EITCDuProjectAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EITCDuProjectAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-EITCDuProjectAssignmentTests/Pods-EITCDuProjectAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB797E64477D82316DFE726A /* Pods-EITCDuProjectAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EITCDuProjectAssignment.debug.xcconfig"; path = "Target Support Files/Pods-EITCDuProjectAssignment/Pods-EITCDuProjectAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		E312CA83BD7CBFD97D9F9DBC /* Pods_EITCDuProjectAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EITCDuProjectAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEB4F7919322E170AB0BDC2 /* Pods-EITCDuProjectAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EITCDuProjectAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-EITCDuProjectAssignmentTests/Pods-EITCDuProjectAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAF4D54F0DB704F8A65EA369 /* Pods_EITCDuProjectAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EITCDuProjectAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E71AB09A1AE3B7FECD7DF24 /* Pods_EITCDuProjectAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B071D199DE2F3FF43F46D56E /* Pods_EITCDuProjectAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D381125242BD59EBAC1710 /* Pods_EITCDuProjectAssignment_EITCDuProjectAssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +118,8 @@
 				1BDD2FB92CC24FFD0082583B /* EITCDuProjectAssignmentTests */,
 				1BDD2FC32CC24FFD0082583B /* EITCDuProjectAssignmentUITests */,
 				1BDD2FA12CC24FFB0082583B /* Products */,
+				B9CECF9A1A5B2249C2D23538 /* Pods */,
+				CE8A1B82AA43365C0CC174D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +140,12 @@
 				1BDD2FA52CC24FFB0082583B /* SceneDelegate.swift */,
 				1BDD2FA72CC24FFB0082583B /* ViewController.swift */,
 				1BDD2FA92CC24FFB0082583B /* Main.storyboard */,
+				1BDD2FDC2CC251B40082583B /* Models */,
+				1BDD2FE52CC251B40082583B /* Persistence */,
+				1BDD2FE32CC251B40082583B /* Service */,
+				1BDD2FE02CC251B40082583B /* View */,
+				1BDD2FD52CC251B40082583B /* ViewControllers */,
+				1BDD2FDA2CC251B40082583B /* ViewModels */,
 				1BDD2FAC2CC24FFC0082583B /* Assets.xcassets */,
 				1BDD2FAE2CC24FFC0082583B /* LaunchScreen.storyboard */,
 				1BDD2FB12CC24FFC0082583B /* Info.plist */,
@@ -127,6 +170,105 @@
 			path = EITCDuProjectAssignmentUITests;
 			sourceTree = "<group>";
 		};
+		1BDD2FD52CC251B40082583B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD2FD32CC251B40082583B /* LoginViewController.swift */,
+				1BDD2FD42CC251B40082583B /* PostsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1BDD2FD72CC251B40082583B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD2FD62CC251B40082583B /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1BDD2FD92CC251B40082583B /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD2FD82CC251B40082583B /* PostViewModel.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		1BDD2FDA2CC251B40082583B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD2FD72CC251B40082583B /* Login */,
+				1BDD2FD92CC251B40082583B /* Post */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1BDD2FDC2CC251B40082583B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD2FDB2CC251B40082583B /* PostsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BDD2FDF2CC251B40082583B /* PostTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD2FDD2CC251B40082583B /* PostTableViewCell.swift */,
+				1BDD2FDE2CC251B40082583B /* PostTableViewCell.xib */,
+			);
+			path = PostTableViewCell;
+			sourceTree = "<group>";
+		};
+		1BDD2FE02CC251B40082583B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD2FDF2CC251B40082583B /* PostTableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BDD2FE32CC251B40082583B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD2FE12CC251B40082583B /* Network.swift */,
+				1BDD2FE22CC251B40082583B /* ServiceManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1BDD2FE52CC251B40082583B /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD2FE42CC251B40082583B /* PostDB.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		B9CECF9A1A5B2249C2D23538 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB797E64477D82316DFE726A /* Pods-EITCDuProjectAssignment.debug.xcconfig */,
+				7A32C9FA31CE17B39FE7DDF7 /* Pods-EITCDuProjectAssignment.release.xcconfig */,
+				B2F62054A8BE9912723E6D59 /* Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests.debug.xcconfig */,
+				A2BB9128C8F4F4886B052B23 /* Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests.release.xcconfig */,
+				ECEB4F7919322E170AB0BDC2 /* Pods-EITCDuProjectAssignmentTests.debug.xcconfig */,
+				B733D6F0AE6F333A5E59BCFA /* Pods-EITCDuProjectAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE8A1B82AA43365C0CC174D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E312CA83BD7CBFD97D9F9DBC /* Pods_EITCDuProjectAssignment.framework */,
+				AC7F5863B13FC838DAFD628F /* Pods_EITCDuProjectAssignment_EITCDuProjectAssignmentUITests.framework */,
+				FAF4D54F0DB704F8A65EA369 /* Pods_EITCDuProjectAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BDD2FCA2CC24FFD0082583B /* Build configuration list for PBXNativeTarget "EITCDuProjectAssignment" */;
 			buildPhases = (
+				D36DA4C2CE1CE2F1D9E43A50 /* [CP] Check Pods Manifest.lock */,
 				1BDD2F9C2CC24FFB0082583B /* Sources */,
 				1BDD2F9D2CC24FFB0082583B /* Frameworks */,
 				1BDD2F9E2CC24FFB0082583B /* Resources */,
+				6DB0E53EFE6353B1885C3B2D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BDD2FCD2CC24FFD0082583B /* Build configuration list for PBXNativeTarget "EITCDuProjectAssignmentTests" */;
 			buildPhases = (
+				665F4A6BE026E43C6022396C /* [CP] Check Pods Manifest.lock */,
 				1BDD2FB22CC24FFD0082583B /* Sources */,
 				1BDD2FB32CC24FFD0082583B /* Frameworks */,
 				1BDD2FB42CC24FFD0082583B /* Resources */,
@@ -169,9 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BDD2FD02CC24FFD0082583B /* Build configuration list for PBXNativeTarget "EITCDuProjectAssignmentUITests" */;
 			buildPhases = (
+				7671BDE34C4F3582322FB88C /* [CP] Check Pods Manifest.lock */,
 				1BDD2FBC2CC24FFD0082583B /* Sources */,
 				1BDD2FBD2CC24FFD0082583B /* Frameworks */,
 				1BDD2FBE2CC24FFD0082583B /* Resources */,
+				7199447A30257A5345F24935 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +381,7 @@
 				1BDD2FAD2CC24FFC0082583B /* Assets.xcassets in Resources */,
 				1BDD2FB02CC24FFC0082583B /* Base in Resources */,
 				1BDD2FAB2CC24FFB0082583B /* Base in Resources */,
+				1BDD2FEC2CC251B40082583B /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +401,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		665F4A6BE026E43C6022396C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EITCDuProjectAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB0E53EFE6353B1885C3B2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EITCDuProjectAssignment/Pods-EITCDuProjectAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EITCDuProjectAssignment/Pods-EITCDuProjectAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EITCDuProjectAssignment/Pods-EITCDuProjectAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7199447A30257A5345F24935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests/Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests/Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests/Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7671BDE34C4F3582322FB88C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D36DA4C2CE1CE2F1D9E43A50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EITCDuProjectAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1BDD2F9C2CC24FFB0082583B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDD2FEE2CC251B40082583B /* ServiceManager.swift in Sources */,
+				1BDD2FED2CC251B40082583B /* Network.swift in Sources */,
+				1BDD2FE62CC251B40082583B /* LoginViewController.swift in Sources */,
+				1BDD2FE92CC251B40082583B /* PostViewModel.swift in Sources */,
 				1BDD2FA82CC24FFB0082583B /* ViewController.swift in Sources */,
+				1BDD2FE82CC251B40082583B /* LoginViewModel.swift in Sources */,
 				1BDD2FA42CC24FFB0082583B /* AppDelegate.swift in Sources */,
+				1BDD2FEA2CC251B40082583B /* PostsModel.swift in Sources */,
 				1BDD2FA62CC24FFB0082583B /* SceneDelegate.swift in Sources */,
+				1BDD2FE72CC251B40082583B /* PostsViewController.swift in Sources */,
+				1BDD2FEB2CC251B40082583B /* PostTableViewCell.swift in Sources */,
+				1BDD2FEF2CC251B40082583B /* PostDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +613,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,7 +676,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,6 +697,7 @@
 		};
 		1BDD2FCB2CC24FFD0082583B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB797E64477D82316DFE726A /* Pods-EITCDuProjectAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +725,7 @@
 		};
 		1BDD2FCC2CC24FFD0082583B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A32C9FA31CE17B39FE7DDF7 /* Pods-EITCDuProjectAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +753,7 @@
 		};
 		1BDD2FCE2CC24FFD0082583B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEB4F7919322E170AB0BDC2 /* Pods-EITCDuProjectAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +773,7 @@
 		};
 		1BDD2FCF2CC24FFD0082583B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B733D6F0AE6F333A5E59BCFA /* Pods-EITCDuProjectAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +793,7 @@
 		};
 		1BDD2FD12CC24FFD0082583B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F62054A8BE9912723E6D59 /* Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +811,7 @@
 		};
 		1BDD2FD22CC24FFD0082583B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BB9128C8F4F4886B052B23 /* Pods-EITCDuProjectAssignment-EITCDuProjectAssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,6 +1,6 @@
 //
 //  Network.swift
-//  EITCDuAssignment
+//  EITCDuProjectAssignment
 //
 //  Created by Kirti Kalra on 17/10/24.
 //
