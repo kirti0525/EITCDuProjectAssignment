@@ -16,9 +16,7 @@ class ServiceManager {
             let request = AF.request("https://jsonplaceholder.typicode.com/posts", method: .get)
             request.responseDecodable { (response: AFDataResponse<[Post]>) in
                 switch response.result {
-                case .success(let value):
-                    print("PostList \(value)")
-                    
+                case .success(let value):                    
                     observer.onNext(value)
                     observer.onCompleted()
                 case .failure(let error):
