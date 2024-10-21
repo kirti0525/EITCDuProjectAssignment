@@ -110,7 +110,6 @@ extension PostsViewController: UITableViewDelegate {
         tableView.rx.itemDeleted
             .subscribe(onNext: { [weak self] indexPath in
                 guard let self = self, self.segmentedControl.selectedSegmentIndex == 1 else { return }
-                print("IndexPath \(indexPath.row)")
                 let favorites = viewModel.favoritesRelay.value
                 let post = favorites[indexPath.row]
                 self.viewModel.deleteFavorite(postId: post.id) // Call delete method in ViewModel
